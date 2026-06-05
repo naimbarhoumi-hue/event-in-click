@@ -1,0 +1,10 @@
+{
+  "items": [
+    { "titre": "Lancement de produit", "categorie": "corporate", "type_media": "photo", "photo": "/assets/gallery/event-1.svg", "video_youtube": "", "grande": false },
+    { "titre": "Mariage de luxe", "categorie": "prive", "type_media": "photo", "photo": "/assets/gallery/event-2.svg", "video_youtube": "", "grande": true },
+    { "titre": "Festival musical", "categorie": "culturel", "type_media": "photo", "photo": "/assets/gallery/event-3.svg", "video_youtube": "", "grande": false },
+    { "titre": "Conférence annuelle", "categorie": "corporate", "type_media": "photo", "photo": "/assets/gallery/event-4.svg", "video_youtube": "", "grande": false },
+    { "titre": "Spectacle scénique", "categorie": "culturel", "type_media": "photo", "photo": "/assets/gallery/event-5.svg", "video_youtube": "", "grande": false },
+    { "titre": "Soirée de gala", "categorie": "prive", "type_media": "photo", "photo": "/assets/gallery/event-6.svg", "video_youtube": "", "grande": true }
+  ]
+}

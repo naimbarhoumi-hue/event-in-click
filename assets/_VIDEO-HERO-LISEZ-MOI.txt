@@ -1,0 +1,22 @@
+VIDÉO DE FOND (HAUT DE PAGE)
+=============================
+
+Pour afficher une vidéo en fond du grand bandeau d'accueil :
+
+1. Préparez une courte vidéo (10 à 20 secondes, en boucle, sans son utile).
+   Idéal : ambiance d'événement, lumières, scène, foule élégante.
+2. Nommez le fichier EXACTEMENT :  hero.mp4
+3. Placez-le dans le dossier  assets/  (à côté de logo.jpg).
+
+C'est tout : la vidéo s'affiche automatiquement, en boucle et en sourdine,
+avec un voile sombre par-dessus pour garder le texte lisible.
+
+Conseils :
+- Format MP4 (H.264), largeur 1920 px, poids < 5 Mo pour un chargement rapide.
+- Compressez sur https://www.freeconvert.com/video-compressor si besoin.
+- Pas de vidéo ? Aucun souci : le joli fond doré animé s'affiche à la place.
+
+Où trouver des vidéos gratuites (libres de droits, usage commercial) :
+- https://www.pexels.com/videos/   (cherchez "gala", "event", "stage lights")
+- https://pixabay.com/videos/
+Téléchargez, renommez en hero.mp4, déposez dans assets/.

@@ -1,0 +1,20 @@
+DOSSIER DES PHOTOS DE LA GALERIE
+=================================
+
+Placez ici vos 6 photos de réalisations, nommées EXACTEMENT ainsi :
+
+  event-1.jpg   (Corporate — Lancement de produit)
+  event-2.jpg   (Privé     — Mariage de luxe)        [format vertical conseillé]
+  event-3.jpg   (Culturel  — Festival musical)
+  event-4.jpg   (Corporate — Conférence annuelle)
+  event-5.jpg   (Culturel  — Spectacle scénique)
+  event-6.jpg   (Privé     — Soirée de gala)         [format vertical conseillé]
+
+Conseils :
+- Format paysage ~1200x800 px pour les cases normales.
+- Format portrait ~800x1200 px pour les cases "tall" (event-2 et event-6).
+- Poids < 400 Ko par image (optimisez sur tinypng.com) pour un site rapide.
+
+Tant qu'une photo est absente, un joli motif doré s'affiche à sa place,
+avec le nom du fichier attendu en haut à gauche. Une fois la photo ajoutée
+(même nom), elle remplace automatiquement le motif.

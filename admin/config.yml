@@ -1,0 +1,52 @@
+# ============================================================
+#  Configuration Decap CMS — Event In Click
+#  Définit ce que vous pouvez modifier depuis /admin.
+#  Ne pas modifier sauf nécessité (voir le guide).
+# ============================================================
+
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "assets/uploads"
+public_folder: "assets/uploads"
+
+locale: "fr"
+
+collections:
+  # ---------- Réalisations (galerie) ----------
+  # Stockées dans UN seul fichier JSON, lu directement par le site.
+  - name: "galerie"
+    label: "Réalisations (galerie)"
+    files:
+      - name: "realisations"
+        label: "Liste des réalisations"
+        file: "content/realisations.json"
+        description: "Ajoutez, modifiez ou supprimez vos réalisations affichées dans la galerie."
+        fields:
+          - name: "items"
+            label: "Réalisations"
+            label_singular: "Réalisation"
+            widget: "list"
+            summary: "{{fields.titre}} — {{fields.categorie}}"
+            fields:
+              - { name: "titre", label: "Titre", widget: "string", hint: "Ex. : Mariage de luxe au Palais" }
+              - name: "categorie"
+                label: "Catégorie"
+                widget: "select"
+                options:
+                  - { label: "Corporate", value: "corporate" }
+                  - { label: "Privé", value: "prive" }
+                  - { label: "Culturel", value: "culturel" }
+                default: "corporate"
+              - name: "type_media"
+                label: "Type de média"
+                widget: "select"
+                options:
+                  - { label: "Photo", value: "photo" }
+                  - { label: "Vidéo (YouTube)", value: "video" }
+                default: "photo"
+                hint: "Photo pour une image, ou Vidéo pour intégrer une vidéo YouTube."
+              - { name: "photo", label: "Photo", widget: "image", required: false, hint: "Si Type = Photo. Paysage conseillé, < 400 Ko." }
+              - { name: "video_youtube", label: "Lien vidéo YouTube", widget: "string", required: false, hint: "Si Type = Vidéo. Ex. https://www.youtube.com/watch?v=XXXX" }
+              - { name: "grande", label: "Grande vignette (verticale)", widget: "boolean", default: false, required: false }
